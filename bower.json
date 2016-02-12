@@ -4,25 +4,25 @@
   "dependencies": {
     "modernizr": "2.8.x",
     "angular": "1.5.x",
-    "modernizr" : "2.8.x",
-    "jquery" : "2.x.x",
-    "angular-animate" : "1.2.x",
-    "angular-cookies" : "1.2.x",
-    "angular-sanitize" : "1.2.x",
-    "angular-resource" : "1.2.x",
-    "angular-route" : "1.2.x",
-    "bootstrap-sass-official" : "3.1.x",
-    "firebase" : "1.0.x",
-    "angularfire" : "0.8.x"
+    "jquery": "latest",
+    "angular-animate": "latest",
+    "angular-cookies": "latest",
+    "angular-sanitize": "latest",
+    "angular-resource": "latest",
+    "angular-route": "latest",
+    "bootstrap-sass-official": "latest",
+    "firebase": "latest",
+    "angularfire": "latest",
+    "leaflet": "leaflet-dist#^0.7.2"
   },
   "devDependencies": {
     "angular-mocks": "1.2.x"
   },
   "resolutions": {
     "angular": "1.5.x",
-    "modernizr" : "2.8.x",
-    "jquery" : "2.x.x",
-    "firebase" : "1.0.x",
-    "angularfire" : "0.8.x"
+    "modernizr": "2.8.x",
+    "jquery": "2.x.x",
+    "firebase": "1.0.x",
+    "angularfire": "0.8.x"
   }
 }
