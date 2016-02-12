@@ -3,10 +3,12 @@
 'use strict';
 
 angular.module('appGeo')
-  .controller('MainCtrl', function ($scope, $firebase) {
+  .controller('MainCtrl', function ($scope, $firebaseObject) {
   	// now we can use $firebase to synchronize data between clients and the server!
-    var ref = new Firebase('https://sizzling-heat-8398.firebaseio.com/');
-    var sync = $firebase(ref);
+    var ref = new Firebase('https://appgeo.firebaseio.com/Usuarios');
+    var sync = $firebaseObject(ref);
+
+    sync.$bindTo($scope, "data");
 
     $scope.awesomeThings = [
       {
