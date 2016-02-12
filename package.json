@@ -1,0 +1,48 @@
+{
+  "name": "appGeo",
+  "version": "0.0.0",
+  "dependencies": {
+    "gulp-jshint": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-cache": "latest",
+    "gulp-csso": "latest",
+    "gulp-filter": "latest",
+    "gulp-flatten": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-inject": "latest",
+    "gulp-jshint": "^2.0.0",
+    "gulp-karma": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-minify-html": "latest",
+    "gulp-ng-annotate": "latest",
+    "gulp-ng-html2js": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-protractor": "latest",
+    "gulp-replace": "latest",
+    "gulp-rev": "latest",
+    "gulp-rev-replace": "latest",
+    "gulp-rimraf": "latest",
+    "gulp-sass": "latest",
+    "gulp-size": "latest",
+    "gulp-uglify": "latest",
+    "gulp-useref": "latest",
+    "http-proxy": "latest",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "latest",
+    "karma-jasmine": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "main-bower-files": "latest",
+    "protractor": "latest",
+    "require-dir": "latest",
+    "uglify-save-license": "latest",
+    "wiredep": "latest"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
