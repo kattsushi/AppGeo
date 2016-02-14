@@ -13,7 +13,8 @@
     "bootstrap-sass-official": "latest",
     "firebase": "latest",
     "angularfire": "latest",
-    "leaflet": "leaflet-dist#^0.7.2"
+    "leaflet": "leaflet-dist#^0.7.2",
+    "firebase-simple-login": "^1.6.4"
   },
   "devDependencies": {
     "angular-mocks": "1.2.x"

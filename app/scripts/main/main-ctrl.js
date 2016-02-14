@@ -3,14 +3,13 @@
 'use strict';
 
 angular.module('appGeo')
-  .controller('MainCtrl', function ($scope, $firebaseObject) {
+  .controller('MainCtrl', function () {
   	// now we can use $firebase to synchronize data between clients and the server!
-    var ref = new Firebase('https://appgeo.firebaseio.com/Usuarios');
-    var sync = $firebaseObject(ref);
-
-    sync.$bindTo($scope, "data");
-
-    $scope.awesomeThings = [
+    var main = this;
+    
+    main.data= 'hola mundo';
+    
+    main.awesomeThings = [
       {
         'key': 'angular',
         'title': 'AngularJS',
@@ -68,7 +67,7 @@ angular.module('appGeo')
         'logo': 'bootstrap.png'
       }
     ];
-    angular.forEach($scope.awesomeThings, function(awesomeThing) {
+    angular.forEach(main.awesomeThings, function(awesomeThing) {
       awesomeThing.rank = Math.random();
     });
   });
